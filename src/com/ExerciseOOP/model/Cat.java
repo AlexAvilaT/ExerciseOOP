@@ -1,6 +1,6 @@
 package com.ExerciseOOP.model;
 
-public class Cat 
+public abstract class Cat  implements Catable
 {
 	//how to make a class
 	private int Id;
@@ -47,6 +47,11 @@ public class Cat
 	public void setAge(int Age)
 	{
 		this.Age = Age;
+	}
+	//ToString method
+	public String ToString()
+	{
+		return "Id:["+Id+"], Name:["+Name+"], Age:["+Age+"]";
 	}
 }
 

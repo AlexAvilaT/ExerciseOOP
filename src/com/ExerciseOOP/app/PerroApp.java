@@ -11,6 +11,7 @@ public class PerroApp
 		Dog pluto;
 		pluto = new Dog();
 		//way 2
+		
 		Dog Tribilin = new Dog();
 		
 		pluto.age = 15;
@@ -27,10 +28,9 @@ public class PerroApp
 		System.out.println("firulais Height is:" + firulais.Height);
 		System.out.println("firulais id is:" + firulais.id);
 		
-		Dog Tribilin1 = new Dog(2, "Firulais", "husky", 3,4.0);
-		System.out.println("firulais age is:" + Tribilin1.age);
-		System.out.println("firulais Height is:" + Tribilin1.Height);
-		System.out.println("firulais id is:" + Tribilin1.id);
+		Dog lucho = new Dog(1, "lucho", "");
+		
+	
 	}
 
 }
